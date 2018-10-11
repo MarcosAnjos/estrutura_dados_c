@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1539279027 source:c:\users\marcola\desktop\exerciciosestruturadados\modularizacao_tad\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Ponto.h"
+
+1539278057 c:\users\marcola\desktop\exerciciosestruturadados\modularizacao_tad\ponto.h
+
