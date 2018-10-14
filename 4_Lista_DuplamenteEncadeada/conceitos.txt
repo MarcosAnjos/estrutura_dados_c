@@ -1,0 +1,18 @@
+LISTA DUPLAMENTE ENCADEADA
+	Tipo de lista, onde cada elemeto aponta para o seu sucessor e antecessor na lista 
+	usa um ponteiro especial para o primeiro elemento da lista e uma indicação de final de lista, nos dois sentidos da lista
+
+VANTAGENS
+	melhor ultilização dos recursos de memoria 
+	nao precissa movimentar os elementos as operações de inserção e remoção
+
+DESVANTAGENS 
+	acesso direto aos elementos 
+	necessidade de percorrer a lista para acessar um elemento
+
+QUANDO USAR:
+	NAO AH necessidades de garantir um espaço minimo para execulsão de um app
+	insersao e remoção em lista ordenada são as operações mais frequente
+	necessidade de acessar informação de um elemento antecessor
+
+
