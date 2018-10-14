@@ -1,0 +1,31 @@
+Lista dinamica encadeada
+	Cada elemento é tratado um ponteiro que é alocado dinamicamente, a medida que os dados são inseridos 
+	Para guardar o primeiro elemento, ultilizamos um PONTEIRO DE PONTEIRO  que pode guardar o endereço de um PONTEIRO 
+	Assim fica fácil mudar quem está no inicio mudando o conteudo do PONTEIRO PARA PONTEIRO
+
+VANTAGENS
+	Melhor ultilização dos recursos da memoria
+	nao precisa movimentar os elementos nas operações de insersão e remoção
+
+
+DESVANTAGENS 
+	Acesso direto aos elementos
+	Necessidade de percorrer a lista para acessar um elemento
+
+QUANDO ULTILIZAR>
+	Quando não poder garantir um espaço mínimo para a execução do app
+	insersão e remoção em lista ordenada são as operações maios frequente.
+
+
+
+IMPLEMENTAÇÃO
+
+	ListaDinEncad.h 
+		os protótipos das funções
+		o tipo dado armazenado na lista
+		o ponteiro LISTA
+
+	ListaDinEncad.c 
+		o tipo de dados LISTA
+		implemetar as suas funções
+
